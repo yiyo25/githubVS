@@ -16,3 +16,5 @@ C:\Users\EXTENSION\Documents\VS2017\githubVS\S4-14-04-2019\slnApp\App.Data\obj\D
 C:\Users\EXTENSION\Documents\VS2017\githubVS\S4-14-04-2019\slnApp\App.Data\obj\Debug\App.Data.csproj.CopyComplete
 C:\Users\EXTENSION\Documents\VS2017\githubVS\S4-14-04-2019\slnApp\App.Data\obj\Debug\App.Data.dll
 C:\Users\EXTENSION\Documents\VS2017\githubVS\S4-14-04-2019\slnApp\App.Data\obj\Debug\App.Data.pdb
+C:\Users\EXTENSION\Documents\VS2017\githubVS\S4-14-04-2019\slnApp\App.Data\bin\Debug\Dapper.dll
+C:\Users\EXTENSION\Documents\VS2017\githubVS\S4-14-04-2019\slnApp\App.Data\bin\Debug\Dapper.xml

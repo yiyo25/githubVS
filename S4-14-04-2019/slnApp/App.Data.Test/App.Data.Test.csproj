@@ -49,6 +49,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArtistTXLocalDapperDAUnitTest.cs" />
     <Compile Include="ArtistTXDistribuidasDAUnitTest.cs" />
     <Compile Include="ArtistDAUnitTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
