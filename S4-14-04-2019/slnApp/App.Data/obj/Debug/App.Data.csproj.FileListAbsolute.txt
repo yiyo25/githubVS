@@ -7,3 +7,12 @@ C:\Users\EXTENSION\Documents\VS2017\S4-14-04-2019\slnApp\App.Data\obj\Debug\App.
 C:\Users\EXTENSION\Documents\VS2017\S4-14-04-2019\slnApp\App.Data\bin\Debug\App.Entities.dll
 C:\Users\EXTENSION\Documents\VS2017\S4-14-04-2019\slnApp\App.Data\bin\Debug\App.Entities.pdb
 C:\Users\EXTENSION\Documents\VS2017\S4-14-04-2019\slnApp\App.Data\obj\Debug\App.Data.csproj.CopyComplete
+C:\Users\EXTENSION\Documents\VS2017\githubVS\S4-14-04-2019\slnApp\App.Data\bin\Debug\App.Data.dll
+C:\Users\EXTENSION\Documents\VS2017\githubVS\S4-14-04-2019\slnApp\App.Data\bin\Debug\App.Data.pdb
+C:\Users\EXTENSION\Documents\VS2017\githubVS\S4-14-04-2019\slnApp\App.Data\bin\Debug\App.Entities.dll
+C:\Users\EXTENSION\Documents\VS2017\githubVS\S4-14-04-2019\slnApp\App.Data\bin\Debug\App.Entities.pdb
+C:\Users\EXTENSION\Documents\VS2017\githubVS\S4-14-04-2019\slnApp\App.Data\obj\Debug\App.Data.csprojAssemblyReference.cache
+C:\Users\EXTENSION\Documents\VS2017\githubVS\S4-14-04-2019\slnApp\App.Data\obj\Debug\App.Data.csproj.CoreCompileInputs.cache
+C:\Users\EXTENSION\Documents\VS2017\githubVS\S4-14-04-2019\slnApp\App.Data\obj\Debug\App.Data.csproj.CopyComplete
+C:\Users\EXTENSION\Documents\VS2017\githubVS\S4-14-04-2019\slnApp\App.Data\obj\Debug\App.Data.dll
+C:\Users\EXTENSION\Documents\VS2017\githubVS\S4-14-04-2019\slnApp\App.Data\obj\Debug\App.Data.pdb

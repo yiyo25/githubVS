@@ -5,12 +5,12 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace App.Data.Test
 {
     [TestClass]
-    public class ArtistDAUnitTest
+    public class ArtistTXDistribuidasDAUnitTest
     {
         [TestMethod]
         public void Count()
         {
-            var da = new ArtistDA();
+            var da = new ArtistTXDistribuidasDA();
 
             Assert.IsTrue(da.GetCount()>0);
         }
@@ -18,7 +18,7 @@ namespace App.Data.Test
         [TestMethod]
         public void GetAll()
         {
-            var da = new ArtistDA();
+            var da = new ArtistTXDistribuidasDA();
             var listado = da.GetAll();
             Assert.IsTrue(listado.Count > 0);
         }
@@ -26,7 +26,7 @@ namespace App.Data.Test
         [TestMethod]
         public void Get()
         {
-            var da = new ArtistDA();
+            var da = new ArtistTXDistribuidasDA();
             var entity = da.Get(10);
             Assert.IsTrue(entity.ArtistId > 0);
         }
@@ -34,7 +34,7 @@ namespace App.Data.Test
         [TestMethod]
         public void GetAllSP()
         {
-            var da = new ArtistDA();
+            var da = new ArtistTXDistribuidasDA();
             var listado = da.GetAllSP("Aerosmith");
             Assert.IsTrue(listado.Count > 0);
         }
@@ -42,10 +42,10 @@ namespace App.Data.Test
         [TestMethod]
         public void InsertSP()
         {
-            var da = new ArtistDA();
+            var da = new ArtistTXDistribuidasDA();
             var artist = new Artist();
-            artist.Name = "ivan";
-            var id = da.insert(artist);
+            artist.Name = "edi";
+            var id = da.Insert(artist);
             Assert.IsTrue(id > 0,"Nombre del artista ya existe");
         }
 
@@ -53,27 +53,27 @@ namespace App.Data.Test
         [TestMethod]
         public void UpdateSP()
         {
-            var da = new ArtistDA();
+            var da = new ArtistTXDistribuidasDA();
             var artist = new Artist
             {
-                Name = "eduardo",
+                Name = "jhon",
                 ArtistId = 278
             };
            
-            var registrosAfectados = da.update(artist);
+            var registrosAfectados = da.Update(artist);
             Assert.IsTrue(registrosAfectados > 0, "Nombre del artista ya existe");
         }
 
         [TestMethod]
         public void DeleteSP()
         {
-            var da = new ArtistDA();
+            var da = new ArtistTXDistribuidasDA();
            /* var artist = new Artist
             {
                 ArtistId = 276
             };*/
 
-            var registrosAfectados = da.deleteSp(278);
+            var registrosAfectados = da.DeleteSp(278);
             Assert.IsTrue(registrosAfectados > 0, "Artista no fue eliminado");
         }
     }
